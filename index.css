@@ -103,6 +103,7 @@ button {
   font-weight: 700;
   color: #f7f8ff;
   background-color: #232742;
+  width: 100%;
 }
 
 button:hover {
@@ -112,4 +113,32 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+/* success page css */
+
+.success-page {
+  background-color: #ffffff;
+  border-radius: 3rem;
+  padding: 6rem;
+}
+
+.success-page-heading {
+  font-size: 5rem;
+  width: 30rem;
+  font-weight: 700;
+  color: #202438;
+  margin: 2rem 0;
+}
+
+.success-message {
+  width: 38rem;
+  color: #313037;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.confirm-email {
+  color: #151628;
+  font-weight: 700;
 }

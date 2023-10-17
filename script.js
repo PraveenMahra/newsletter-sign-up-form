@@ -32,5 +32,8 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
   const isValidEmail = emailValidator();
 
+  const email = document.getElementById("email").value;
+  sessionStorage.setItem("email", email);
+
   if (isValidEmail) window.location = "/success.html";
 });
