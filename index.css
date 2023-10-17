@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.6rem;
+  background-color: #36384d;
+}
+
+main {
+  display: flex;
+  padding: 2rem 2rem 2rem 4rem;
+  background-color: #ffffff;
+  border-radius: 4rem;
+}
+
+.newsletter-heading {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #202438;
+  margin: 7rem 0 2rem 0;
+}
+
+.newsletter-summary {
+  margin-bottom: 3rem;
+  color: #262731;
+  width: 90%;
+  line-height: 1.5;
+}
+
+.newsletter-benefits {
+  display: flex;
+  gap: 2rem;
+  margin: 1.5rem 0;
+  color: #262731;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+label {
+  font-size: 1.2rem;
+  color: #0d0d1d;
+  margin-top: 3rem;
+  font-weight: 700;
+}
+
+input {
+  padding: 1.7rem;
+  border: 1px solid #c5c5c5;
+  outline: none;
+  border-radius: 5px;
+  margin: 1rem 0 2rem 0;
+  color: #272930;
+}
+
+input:focus {
+  border: 1px solid #292830;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 1.8rem;
+  font-weight: 700;
+  color: #f7f8ff;
+  background-color: #232742;
+}
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #ff5478, #ff6841);
+}
+
+.hidden {
+  display: none;
+}
