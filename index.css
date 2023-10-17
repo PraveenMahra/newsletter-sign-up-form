@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   font-size: 1.6rem;
   background-color: #36384d;
 }
@@ -141,4 +141,55 @@ button:hover {
 .confirm-email {
   color: #151628;
   font-weight: 700;
+}
+
+/*  add media queries for responsivness */
+
+@media (max-width: 57rem) {
+  main {
+    flex-direction: column-reverse;
+    min-height: 100vh;
+    padding: 0;
+    border-radius: 0%;
+  }
+
+  .newsletter-content {
+    padding: 0 3rem 3rem 3rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .newsletter-heading {
+    font-size: 4rem;
+    margin-top: 4rem;
+  }
+
+  /* media queries for success page */
+
+  .success-page {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    padding: 2rem;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .success-page-content {
+    margin-top: 10rem;
+  }
+
+  .success-page-heading {
+    font-size: 4rem;
+  }
+
+  .success-message {
+    width: 100%;
+  }
+
+  a {
+    margin-top: auto;
+  }
 }

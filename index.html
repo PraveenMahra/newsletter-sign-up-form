@@ -19,7 +19,7 @@
   </head>
   <body>
     <main>
-      <div>
+      <div class="newsletter-content">
         <h2 class="newsletter-heading">Stay updated!</h2>
         <p class="newsletter-summary">
           Join 60,000+ product managers receiving monthly updates on:
@@ -54,7 +54,21 @@
         </form>
       </div>
       <div>
-        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="img" />
+        <picture>
+          <source
+            media="(min-width:57rem)"
+            srcset="./assets/images/illustration-sign-up-desktop.svg"
+          />
+          <source
+            media="(max-width:57rem)"
+            srcset="./assets/images/illustration-sign-up-mobile.svg"
+          />
+          <img
+            src="./assets/images/illustration-sign-up-desktop.svg"
+            alt="img"
+            style="width: 100%"
+          />
+        </picture>
       </div>
     </main>
 
