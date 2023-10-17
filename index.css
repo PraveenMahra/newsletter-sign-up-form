@@ -69,6 +69,26 @@ input {
   border-radius: 5px;
   margin: 1rem 0 2rem 0;
   color: #272930;
+  width: 100%;
+}
+
+form div {
+  position: relative;
+}
+
+.error-message {
+  position: absolute;
+  right: 0;
+  top: -1.5rem;
+  color: #cd6f68;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.input-error {
+  color: #d2797a;
+  background-color: #ffe8e6;
+  border: 1px solid #c27b78;
 }
 
 input:focus {

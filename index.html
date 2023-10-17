@@ -38,7 +38,11 @@
         </div>
         <form>
           <label for="email">Email address</label>
-          <input type="email" id="email" placeholder="email@company.com" />
+          <div>
+            <input type="email" id="email" placeholder="email@company.com" />
+            <span class="error-message hidden">Valid email required</span>
+          </div>
+
           <button class="subscribe-btn" type="submit">
             Subscribe to monthly newsletter
           </button>
@@ -54,5 +58,7 @@
         confirm your subscription. Dismiss message
       </div>
     </main>
+
+    <script src="./script.js"></script>
   </body>
 </html>
